@@ -14,6 +14,9 @@ class Car {
   Car(this.brand, this.model, this.year, this.milesDriven) {
     numberOfCars++;
   }
+  void drive(double miles) {
+    milesDriven += miles;
+  }
   String getBrand() {
     return brand;
   }
@@ -23,9 +26,7 @@ class Car {
     return milesDriven;
   }
 
-  void drive(double miles) {
-    milesDriven += miles;
-  }
+
 
   String getModel() {
     return model;
