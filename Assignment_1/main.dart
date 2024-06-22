@@ -11,24 +11,24 @@ void main() {
   car3.drive(2000);
 
   //----------------car 3
-  print('\n Car brand: ${car1.getbrand()}');
-  print('Car model: ${car1.getmodel()}');
-  print('Car year: ${car1.getyear()}');
-  print('Miles driven: ${car1.getmilesDriven()}');
+  print('\n Car brand: ${car1.getBrand()}');
+  print('Car model: ${car1.getModel()}');
+  print('Car year: ${car1.getYear()}');
+  print('Miles driven: ${car1.getMilesDriven()}');
   print('Car age: ${car1.getAge()} years');
 
   //----------------car 2
-  print('\n Car brand: ${car2.getbrand()}');
-  print('Car model: ${car2.getmodel()}');
-  print('Car year: ${car2.getyear()}');
-  print('Miles driven: ${car2.getmilesDriven()}');
+  print('\n Car brand: ${car2.getBrand()}');
+  print('Car model: ${car2.getModel()}');
+  print('Car year: ${car2.getYear()}');
+  print('Miles driven: ${car2.getMilesDriven()}');
   print('Car age: ${car2.getAge()} years');
 
   //----------------car 3
-  print('\n Car brand: ${car3.getbrand()}');
-  print('Car model: ${car3.getmodel()}');
-  print('Car year: ${car3.getyear()}');
-  print('Miles driven: ${car3.getmilesDriven()}');
+  print('\n Car brand: ${car3.getBrand()}');
+  print('Car model: ${car3.getModel()}');
+  print('Car year: ${car3.getYear()}');
+  print('Miles driven: ${car3.getMilesDriven()}');
   print('Car age: ${car3.getAge()} years');
 
   print('Total Cars:${Car.numberOfCars}');

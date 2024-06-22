@@ -14,12 +14,12 @@ class Car {
   Car(this.brand, this.model, this.year, this.milesDriven) {
     numberOfCars++;
   }
-  String getbrand() {
+  String getBrand() {
     return brand;
   }
 
 
-  double getmilesDriven(){
+  double getMilesDriven(){
     return milesDriven;
   }
 
@@ -27,11 +27,11 @@ class Car {
     milesDriven += miles;
   }
 
-  String getmodel() {
+  String getModel() {
     return model;
   }
 
-  int getyear() {
+  int getYear() {
     return year;
   }
 
@@ -40,5 +40,7 @@ class Car {
     return currentYear-year;
   }
 
-  static int get getNumberOfCars => numberOfCars;
+  static int getNumberOfCars(){
+    return numberOfCars;
+  }
 }
